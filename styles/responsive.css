@@ -1,0 +1,18 @@
+/* Small device responsive stars here */
+
+@media screen and (max-width: 576px) {
+  .nav-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-items-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-items-container a {
+    margin-bottom: 20px;
+  }
+}
+
+/* Small device responsive ends here */
