@@ -1,6 +1,8 @@
 /* Small device responsive stars here */
 
 @media screen and (max-width: 576px) {
+  /* nav responsive starts here */
+
   .nav-container {
     flex-direction: column;
     width: 100%;
@@ -13,6 +15,25 @@
   .nav-items-container a {
     margin-bottom: 20px;
   }
+
+  /* nav responsive ends here */
+
+  /* Banner responsive stars here */
+
+  .banner-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .banner-image-container {
+    width: 100%;
+    padding: 10px;
+  }
+  .banner-text-container {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Banner responsive ends here */
 }
 
 /* Small device responsive ends here */
