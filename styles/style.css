@@ -70,19 +70,43 @@ body {
   display: flex;
   max-width: 1000px;
   margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
 }
 .banner-text-container {
-  border: 1px solid green;
   width: 50%;
 }
 .banner-title {
+  color: #0b0223;
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 0;
 }
 .banner-title-special {
+  font-size: 65px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .banner-description {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+  /* margin-top: 20px; */
+  margin-bottom: 10px;
+}
+.banner-text-container .click-instant {
+  margin-top: 25px;
 }
 .banner-image-container {
-  border: 1px solid red;
   width: 50%;
 }
 .banner-image-container img {
