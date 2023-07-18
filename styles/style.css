@@ -61,3 +61,33 @@ body {
 }
 
 /* nav design ends here */
+
+/* Banner design starts here */
+
+.banner-section {
+}
+.banner-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.banner-text-container {
+  border: 1px solid green;
+  width: 50%;
+}
+.banner-title {
+}
+.banner-title-special {
+}
+.banner-description {
+}
+.banner-image-container {
+  border: 1px solid red;
+  width: 50%;
+}
+.banner-image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Banner design ends here */
