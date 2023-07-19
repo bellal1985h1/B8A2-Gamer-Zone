@@ -9,6 +9,18 @@ body {
   padding: 0;
   font-family: "Work Sans", sans-serif;
 }
+
+.btn-common {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 48px;
+  border: none;
+  margin-top: 25px;
+  cursor: pointer;
+}
 /* Common Shared styles ends here */
 
 /* nav design starts here */
@@ -113,5 +125,12 @@ body {
   width: 100%;
   height: 100%;
 }
-
+.btn-sign-in {
+  background-color: #ff42a5;
+  margin-right: 25px;
+}
+.btn-go {
+  border-radius: 48px;
+  background-color: #4ec5f7;
+}
 /* Banner design ends here */
