@@ -182,3 +182,46 @@ body {
   font-size: 14px;
 }
 /* Online games section design end here */
+
+/* Play-instantly section design starts here */
+.play-instantly-container {
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  height: 400px;
+  gap: 50px;
+  justify-content: space-between;
+  border: 1px solid green;
+}
+.play-text-container {
+  border: 1px solid red;
+  max-width: 350px;
+
+  /* width: 45%; */
+}
+.play-text-container .play-title {
+}
+.play-text-container .play-description {
+}
+.play-photo-container {
+  border: 1px solid green;
+  /* width: 55%; */
+  position: relative;
+  max-width: 450px;
+}
+.play-photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.play-photo-container .img-baby {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  left: -100px;
+  bottom: -90px;
+  border-radius: 5px;
+}
+
+/* Play-instantly section design ends here */
