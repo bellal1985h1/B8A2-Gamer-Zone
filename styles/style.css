@@ -71,6 +71,13 @@ body {
   background-color: rgba(11, 2, 35, 0.1);
   padding: 10px 20px;
 }
+.btn-follow-us .fa-youtube {
+  background-color: #f61c0d;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 10px;
+  align-items: center;
+}
 
 /* nav design ends here */
 
