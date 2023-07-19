@@ -108,6 +108,20 @@
     margin: auto;
   }
 
+  /* Games items section responsive starts here */
+
+  .games-items-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .games-items-2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* Games items section responsive end here */
+
   /* Footer section responsive end here */
 }
 /* Small device responsive ends here */
