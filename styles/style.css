@@ -184,28 +184,47 @@ body {
 /* Online games section design end here */
 
 /* Play-instantly section design starts here */
+.play-instantly {
+  margin-top: 60px;
+  max-width: 1100px;
+  margin: auto;
+  margin-top: 60px;
+}
 .play-instantly-container {
   display: flex;
-  max-width: 900px;
+  align-items: center;
   margin: 0 auto;
   height: 400px;
-  gap: 50px;
-  justify-content: space-between;
-  border: 1px solid green;
+  gap: 20px;
+  justify-content: space-around;
+  margin: auto;
 }
 .play-text-container {
-  border: 1px solid red;
   max-width: 350px;
-
-  /* width: 45%; */
+  padding: 15px;
 }
 .play-text-container .play-title {
+  text-align: right;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.play-text-container .play-title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 35px;
+  font-weight: 700;
 }
 .play-text-container .play-description {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 10px;
 }
 .play-photo-container {
-  border: 1px solid green;
-  /* width: 55%; */
   position: relative;
   max-width: 450px;
 }
@@ -214,13 +233,14 @@ body {
   height: 100%;
   object-fit: cover;
   border-radius: 5px;
+  margin-top: 65px;
 }
 .play-photo-container .img-baby {
   position: absolute;
   width: 200px;
   height: 200px;
   left: -100px;
-  bottom: -90px;
+  bottom: -50px;
   border-radius: 5px;
 }
 

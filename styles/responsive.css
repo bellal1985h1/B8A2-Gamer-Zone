@@ -40,8 +40,33 @@
     margin: 10px 15px 0;
   }
 
-  /* Small device responsive ends here */
-
   /* online games section responsive ends here */
+
+  /* Play section design starts here */
+
+  .play-instantly-container {
+    flex-direction: column;
+    margin-top: 200px;
+    justify-content: center;
+  }
+  .play-text-container {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 0;
+  }
+
+  .play-photo-container {
+    width: 40%;
+  }
+
+  .play-photo-container .img-baby {
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: -70px;
+    bottom: -100px;
+  }
+  /* Play section design ends here */
 }
 /* Small device responsive ends here */
