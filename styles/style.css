@@ -381,10 +381,12 @@ footer {
   cursor: pointer;
 }
 .games-item:hover {
-  border: 2px solid blue;
-}
-.arcade-games a {
+  border: 2px solid #ff42a5;
   color: #ff42a5;
 }
+.games-item a:hover {
+  color: #ff42a5;
+}
+
 /* Games items section design end here */
 /* Footer section design end here */
