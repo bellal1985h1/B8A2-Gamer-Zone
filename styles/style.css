@@ -369,6 +369,12 @@ footer {
   text-decoration: none;
   color: #0b0223;
 }
-
+.games-item {
+  border: none;
+  cursor: pointer;
+}
+.games-item:hover {
+  border: 2px solid blue;
+}
 /* Games items section design end here */
 /* Footer section design end here */
