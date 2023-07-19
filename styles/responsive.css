@@ -68,5 +68,46 @@
     bottom: -100px;
   }
   /* Play section design ends here */
+
+  /* Footer section responsive starts here */
+
+  .footer-items {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+  }
+  .social-icon {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .social-icon a {
+    margin-top: 10px;
+  }
+  .policy {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    margin-top: 50px;
+  }
+  .copyright {
+    width: 50%;
+    margin: auto;
+  }
+
+  /* Footer section responsive end here */
 }
 /* Small device responsive ends here */
