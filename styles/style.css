@@ -376,5 +376,8 @@ footer {
 .games-item:hover {
   border: 2px solid blue;
 }
+.arcade-games a {
+  color: #ff42a5;
+}
 /* Games items section design end here */
 /* Footer section design end here */
