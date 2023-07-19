@@ -32,6 +32,16 @@
   }
 
   /* Banner responsive ends here */
-}
 
+  /* online games section responsive starts here */
+
+  .online-games-img-container {
+    grid-template-columns: 1fr;
+    margin: 10px 15px 0;
+  }
+
+  /* Small device responsive ends here */
+
+  /* online games section responsive ends here */
+}
 /* Small device responsive ends here */
