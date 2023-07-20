@@ -38,6 +38,7 @@
   .online-games-img-container {
     grid-template-columns: 1fr;
     margin: 10px 15px 0;
+    text-align: center;
   }
 
   /* online games section responsive ends here */
@@ -264,13 +265,13 @@
   .games-items-container {
     grid-template-columns: 30% 30% 30%;
     margin: auto;
-    gap: 5px;
+    gap: 20px;
     padding: 0 15px;
   }
 
   .games-item {
-    gap: 5px;
-    padding: 5px 10px;
+    gap: 20px;
+    padding: 8px 16px;
     margin: auto;
   }
   .item-6,

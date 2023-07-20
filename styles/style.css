@@ -84,6 +84,10 @@ body {
 /* Banner design starts here */
 
 .banner-section {
+  background-image: url("../images/Group 14.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: contain;
 }
 .banner-container {
   display: flex;
