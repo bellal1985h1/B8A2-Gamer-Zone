@@ -88,6 +88,7 @@ body {
   background-repeat: no-repeat;
   background-position: left;
   background-size: contain;
+  padding-top: 40px;
 }
 .banner-container {
   display: flex;
@@ -100,6 +101,26 @@ body {
 .banner-text-container {
   width: 50%;
 }
+
+.banner-text-container a {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-decoration: none;
+
+  color: #534c64;
+}
+
+.banner-text-container a > i {
+  color: #ff42a5;
+}
+
+.fa-circle-play,
+.fa-download,
+.fa-user-group {
+  margin-right: 20px;
+}
+
 .banner-title {
   color: #0b0223;
   font-size: 40px;
@@ -268,7 +289,7 @@ body {
 .play-text-container .play-description {
   color: #534c64;
   text-align: right;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-top: 10px;
 }
